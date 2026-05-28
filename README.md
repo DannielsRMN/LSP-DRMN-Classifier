@@ -4,5 +4,5 @@ El sistema reconoce con éxito las señas estáticas para **D, R, M y N**. Sin e
 * **Similitud de Patrones:** Las transiciones y posiciones estructurales similares (ej. la cercanía anatómica entre los landmarks de la M y la N) generan fluctuaciones en la predicción.
 
 ### Próximos pasos:
-1. Implementar una clase de fondo (`None` / `Background`) para enseñarle al modelo cuándo la mano está abierta o relajada.
-2. Incrementar el umbral de confianza (`predict_proba() > 0.70`) para estabilizar los fotogramas en OpenCV.
+1. Implementar más registros a la clase de fondo (`None`) para enseñarle al modelo a descartar patrones fuera del alcanse.
+2. Incrementar el umbral de confianza (`predict_proba() > 0.85`) para estabilizar los fotogramas en OpenCV.
