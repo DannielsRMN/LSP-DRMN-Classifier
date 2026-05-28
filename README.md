@@ -1,2 +1,8 @@
-# LSP-DRMN-Classifier
-Módulo en desarrollo para el reconocimiento de 4 letras ($D, R, M, N$) de la Lengua de Señas Peruana (LSP) mediante MLPClassifier y MediaPipe. Nota de la versión: Prototipo inicial enfocado en la optimización del dataset y código para mitigar falsos positivos y corregir la superposición de patrones morfológicos similares.
+## ⚠️ Estado del Proyecto & Desafíos Actuales
+El sistema reconoce con éxito las señas estáticas para **D, R, M y N**. Sin embargo, se encuentra en fase de optimización debido a los siguientes factores:
+* **Falsos Positivos de Mano Abierta:** Al abrir la mano en reposo, el clasificador tiende a forzar la predicción hacia una de las 4 letras.
+* **Similitud de Patrones:** Las transiciones y posiciones estructurales similares (ej. la cercanía anatómica entre los landmarks de la M y la N) generan fluctuaciones en la predicción.
+
+### Próximos pasos:
+1. Implementar una clase de fondo (`None` / `Background`) para enseñarle al modelo cuándo la mano está abierta o relajada.
+2. Incrementar el umbral de confianza (`predict_proba() > 0.70`) para estabilizar los fotogramas en OpenCV.
