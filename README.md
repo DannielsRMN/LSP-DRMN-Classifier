@@ -9,13 +9,15 @@ El sistema reconoce con éxito las señas estáticas para **D, R, M y N**. Sin e
 
 ### Señas Utilizadas:
 1. Letra "D"
-<img src="Lenguaje_Peruano/D.jpeg" width="400" alt="Letra_D">
+<img src="Lenguaje_Peruano/D.jpeg" width="600" alt="Letra_D">
 
 2. Letra "R"
-<img src="Lenguaje_Peruano/R.jpeg" width="400" alt="Letra_R">
+<img src="Lenguaje_Peruano/R.jpeg" width="600" alt="Letra_R">
 
 3. Letra "M"
-<img src="Lenguaje_Peruano/M.jpeg" width="400" alt="Letra_M">
+<img src="Lenguaje_Peruano/M.jpeg" width="600" alt="Letra_M">
 
 4. Letra "N"
-<img src="Lenguaje_Peruano/N.jpeg" width="400" alt="Letra_N">
+<img src="Lenguaje_Peruano/N.jpeg" width="600" alt="Letra_N">
+
+`Video de Referencia: https://youtu.be/xEsI4vFBLSQ?si=E8ErLnCdFNTGjW5d`
