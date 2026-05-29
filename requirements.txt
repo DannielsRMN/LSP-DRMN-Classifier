@@ -1,0 +1,6 @@
+joblib==1.5.3
+mediapipe==0.10.14
+opencv_contrib_python==4.13.0.92
+opencv_python==4.13.0.92
+pandas==3.0.3
+scikit_learn==1.8.0
