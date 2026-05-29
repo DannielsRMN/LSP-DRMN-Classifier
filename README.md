@@ -1,6 +1,6 @@
 # 🤟 LSP-DRMN-Classifier (Reconocimiento de Lengua de Señas Peruana)
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.12.9-blue.svg)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-Vision-green.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-MLPClassifier-orange.svg)
 
